@@ -11,7 +11,7 @@
     ·
     <a href = "https://github.com/harshrd20">harsh</a>
     ·
-    <a href = "">ash08xd</a>
+    <a href = "https://github.com/anshu2950">ash08xd</a>
     ·
     <a href = "">DJ1856</a>
     ·
