@@ -1,4 +1,20 @@
-<p align = "center">
-  <img src = "https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjBw9f_5qHiAhVc8XMBHcjbBU8QjRx6BAgBEAQ&url=https%3A%2F%2Fwww.kisspng.com%2Fpng-web-development-logo-computer-programming-2386888%2F&psig=AOvVaw09Q_QWhFwtrjx3NHRa4lWW&ust=1558156344530204">
-  # SWD
-</p>
+<span align=center>
+  <h2>SWD</h2>
+  <h6>Summer Web Development</h6><br>
+  <p align = "left">
+      
+  </p>
+  <p align="center" style = "display:inline;">
+    <a href = "https://github.com/tronifier">tronifier</a>
+    ·
+    <a href = "https://github.com/munnukumar">ranvijay</a>
+    ·
+    <a href = "https://github.com/harshrd20">harsh</a>
+    ·
+    <a href = "">ash08xd</a>
+    ·
+    <a href = "">DJ1856</a>
+    ·
+    <a href = "">RY18</a>
+  </p>
+</span>
