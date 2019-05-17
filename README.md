@@ -13,7 +13,7 @@
     ·
     <a href = "https://github.com/anshu2950">ash08xd</a>
     ·
-    <a href = "">DJ1856</a>
+    <a href = "https://github.com/djyadav19">DJ1856</a>
     ·
     <a href = "">RY18</a>
   </p>
