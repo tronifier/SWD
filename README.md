@@ -1,6 +1,6 @@
 <span align=center>
   <h2>SWD</h2>
-  <h6>Summer Web Development</h6><br>
+  <h6>Summer Web Designing</h6><br>
   <p align = "left">
       
   </p>
