@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+     iframe
+     {
+       width:100%
+       height:100%
+ 	 }
+   </style>
+</head>
+<body>
+  <img src="logo.png" height="10%" width="10%"/>
+  <h2>Hypertext Markup Language</h2>
+  <hr/>
+  <hr/>
+  <p>Hypertext Markup Language(HTML) is the standard <a href="https://en.wikipedia.org/wiki/Markup_language.html">markup language</a> 
+  	 for creating <a href="https://en.wikipedia.org/wiki/Web_page.html">web page</a> with 
+	   <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets.html">Cascading Style Sheets</a>
+	   and <a href="https://en.wikipedia.org/wiki/js.html">JavaScript</a> it forms a traid of cornerstone technolologies for the 
+	   <a href="https://en.wikipedia.org/wiki/World_Wide_Web">World Wide Web</a></p>
+  <hr/>
+  <hr/>
+</body> 
+</html>
