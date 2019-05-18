@@ -1,0 +1,70 @@
+<html>
+<head>
+  <title>students details</title>
+</head>
+<body>
+  <h1>Students Details</h1>
+  <table border="2px" cellspacing="5px" bgcolor="red" cellpadding="10px">
+  	<tr>
+  	 <th>S.No.</th>
+  	 <th>Name</th>
+  	 <th>Roll no.</th>
+  	 <th>SAP_ID</th>
+  	 <th>total Marks</th>
+  	 <th>total marks obtain</th>
+	</tr>
+	<tr>
+	  <td>1</td>
+	  <td>Ran vijay</td>
+	  <td>83</td>
+	  <td>500069311</td>
+	  <td>100</td>
+	  <td>85</td>
+	</tr>
+	<tr>
+	  <td>2</td>
+	  <td>Harsh Raj</td>
+	  <td>82</td>
+	  <td>500069312</td>
+	  <td>100</td>
+	  <td>88</td>
+	</tr>
+	<tr>
+	  <td>3</td>
+	  <td>Anshu Raj</td>
+	  <td>04</td>
+	  <td>5000693126</td>
+	  <td>100</td>
+	  <td>90</td>
+	</tr>
+	<tr>
+	  <td>4</td>
+	  <td>Aman Gill</td>
+	  <td>06</td>
+	  <td>500069364</td>
+	  <td>100</td>
+	  <td>95</td>
+	</tr>
+	<tr>
+	  <td>5</td>
+	  <td>Dheerj kumar</td>
+	  <td>73</td>
+	  <td>500074198</td>
+	  <td>100</td>
+	  <td>98</td>
+	</tr>
+	<tr>
+	  <td>6</td>
+	  <td>Rahul yaduv</td>
+	  <td>33</td>
+	  <td>500035987</td>
+	  <td>100</td>
+	  <td>93</td>
+	</tr>
+	<tr>
+	  <td colspan="4">Total students marks</td>
+	  <td>600</td>
+	  <td>549</td>
+	</tr>
+</body>
+</html>
