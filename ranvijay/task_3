@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Border Properties</title>
+	<style>
+		.one{
+			border-style: solid;
+			padding: 10px;
+			margin: 10px;
+		}
+		.two{
+			border-left: 6px solid red;
+			background-color: white;
+			padding: 10px;
+			margin: 10px;
+		}
+		.three{
+			border-left: 6px solid blue;
+			background-color: skyblue;
+			padding: 10px
+			margin: 10px;;
+		}
+		.parent{
+			background-color: lightgrey;
+			padding: 10px;
+			margin: 10px;
+		}
+		.four{
+			background-color: white;
+			border-left: 6px solid green;
+			padding: 5px;
+			margin: 10px;
+		}
+		.five{
+			border-left: 6px solid red;
+			border-bottom: 2px solid red;
+			border-right: 6px solid red;
+			border-top: 2px solid red;
+			background-color: lightgreen;
+			padding: 10px;
+			margin: 10px;
+		}
+	</style>
+</head>
+<body>
+	<h1><b>Border Properties<b></h1>
+	<div class="one">Border Style 1</div>
+	<div class="two">Border Style 2</div>
+	<div class="three">Border Style 3</div>
+	<div class="parent">
+		lorem Ipsum
+			<div class="four">Border Style4 4</div>
+	</div>
+	<div class="five">Border Style 5</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
