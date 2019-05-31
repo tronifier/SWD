@@ -21,6 +21,11 @@
 			 margin: 30px;
 			 color: white;	
 		 }
+		 input{
+		 	padding: 10px;
+		 	margin: 10px;
+		 	width: 50%;
+		 }
 		</style>
 	</head>
 	<body>
@@ -30,7 +35,7 @@
 		<a href="contact.html">CONTACT US</a>
 		</div>
 		<h1><b>Rumblings in Bihar grand alliance</b></h1>
-		<img src="img5.png" height="50%" weidth="100%">
+		<img src="news-01.jpeg" height="50%" weidth="100%">
 		<pre style="font-size:200%;"><b>Following the crushing defaeat it suffered in the just-concluded Lok Sabha poll, a simmering discontent 
 is evident in the mahagathandhan [grand alliance] in Bihar.
 		
@@ -38,7 +43,7 @@ A senior RJD leader and MLA has demanded the resignation of the Leader if the op
 some State Congress leaders have urged the party leadership to part ways with the RJD.</b></pre>
 		<div class="parent">
 			Sign up to receive our newsletter in your inbox every day!</br>
-			<input type="text">
+			<input type="text" style="padding:">
 			<a href="go.html" style="border: 1px solid red ; background-color:red ; height:3%">GO</a> 
 		</div>
 	</body>
