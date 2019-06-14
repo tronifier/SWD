@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *, *::before, *::after{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            html, body{
+                font: 400 15px/1.8 "Lato", sans-serif;
+                background: #f6f7f9;
+            }
+            div.options{
+                display: flex;
+                height: 100vh;
+                justify-content: center;
+                align-items: center;
+            }
+            div.options div.ex-wrapper{
+                display: flex;
+                width: 700px;
+                height: 500px;
+                position: relative;
+            }
+            div.options div.bg-img{
+                position: absolute;
+                width: inherit;
+                height: 90%;
+                background-image: url("lofi.jpeg");
+                background-position: center;
+                background-origin: center;
+                background-repeat: no-repeat;
+                z-index: 3;
+                border-radius: 20px 20px 150px 150px;
+            } 
+            div.options div.wrapper{
+                margin: 0 25px;
+                position: relative;
+                width: 300px;
+                height: 500px;
+                background: #fff;
+                border-radius: 20px;
+            }
+            div.options div.wrapper button{
+                border-radius: 20px 20px 0px 0px;
+                display: flex;
+                height: inherit;
+                justify-content: center;
+                align-items: flex-end;
+                font-size: 1.5em;
+                outline: none;
+                color: #748194;
+                border: none;
+                background-color: #fff;
+                padding: 10px;
+                cursor: pointer;
+            }
+            div.options div.wrapper button.sign-in{
+                position: absolute;
+                border-bottom-left-radius: 20px;
+                width: 50%;
+            }
+            div.options div.wrapper button.sign-up{
+                position: absolute;
+                width: 50%;
+                border-bottom-right-radius: 20px;
+                right: 0;
+            }
+            div.options div.wrapper button#active{
+                color: #ee9ba3;
+                z-index: 2;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+            div.options div.ex-wrapper div.wrapper h1, 
+            div.options div.ex-wrapper div.wrapper div.link{
+                text-align: center;
+            }
+            div.options div.ex-wrapper div.wrapper div.link{
+                position: absolute;
+                bottom: 5%;
+                left: 50%;
+                transform: translate(-50%, 0%);
+            }
+            div.options div.ex-wrapper div.wrapper a{
+                text-decoration: none;
+                color: #748194;
+                font-size: 18px;
+            }
+            div.options div.ex-wrapper div.wrapper form{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            div.options div.ex-wrapper div.wrapper form input{
+                margin: 10px;
+                width: 200px;
+                height: 50px;
+                border-radius: 10px;
+                font-weight: 700;
+            }
+            div.options div.ex-wrapper div.wrapper h1{
+                color: #748194;
+            }
+            div.options div.ex-wrapper div.wrapper form input[type = text],
+            div.options div.ex-wrapper div.wrapper form input[type = password],
+            div.options div.ex-wrapper div.wrapper form input[type = email]{
+                background-color: #f6f7f9;
+                color: #748194;
+                border: none;
+                padding: 10px;
+            }
+            div.options div.ex-wrapper div.wrapper form input[type = submit]{
+                background-color: #ee9ba3;
+                color: #fff;
+                border: none;
+            }
+            div.options div.ex-wrapper div.wrapper.sign-in-opt,
+            div.options div.ex-wrapper div.wrapper.sign-up-opt{
+                display: none;
+            }
+            div.options div.ex-wrapper div#active-wrapper{
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "options">
+            <div class = "ex-wrapper">
+                <div class = "wrapper">
+                    <div class = "bg-img"></div>
+                    <button class = "sign-in" id = "active">SIGN IN</button>
+                    <button class = "sign-up">SIGN UP</button>
+                </div>
+                <div class = "wrapper sign-in-opt" id = "active-wrapper">
+                    <h1>SIGN IN</h1>
+                    <form>
+                        <input type = "text" placeholder="Username*"/>
+                        <input type = "password" placeholder="Password*"/>
+                        <input type = "submit" value = "Get Started"/>
+                    </form>
+                    <div class = "link"><a href = "">Forget Password?</a></div>
+                </div>
+                <div class = "wrapper sign-up-opt">
+                    <h1>SIGN UP</h1>
+                    <form>
+                        <input type = "text" placeholder="Username*"/>
+                        <input type = "email" placeholder="Email*"/>
+                        <input type = "password" placeholder="Password*"/>
+                        <input type = "submit" value = "Sign Up"/>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('.sign-up').click(function() {
+                    $('.sign-up').attr('id', 'active');
+                    $('.sign-in').attr('id', '');
+                    $('.sign-in-opt').attr('id', '');
+                    $('.sign-up-opt').attr('id', 'active-wrapper');
+                });
+                $('.sign-in').click(function() {
+                    $('.sign-in').attr('id', 'active');
+                    $('.sign-up').attr('id', '');
+                    $('.sign-in-opt').attr('id', 'active-wrapper');
+                    $('.sign-up-opt').attr('id', '');
+                });
+            });
+        </script>
+    </body>
+</html>
