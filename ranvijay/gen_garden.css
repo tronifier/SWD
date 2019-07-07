@@ -1,0 +1,60 @@
+h1{
+	color: red;
+	font-size: 70px;
+	text-decoration: underline;
+	text-shadow: 4px 8px 5px black;
+	text-align: center;
+}
+h2{
+	color: blue;
+	font-size: 40px;
+	text-decoration: underline;
+	text-shadow: 2px 4px 5px black;
+	text-align: center;
+}
+h3{
+	color: lightgreen;
+	font-size: 20px;
+	text-decoration: underline;
+	text-shadow: 2px 4px 3px black;
+}
+h3:hover{
+		font-style: italic;
+		color: pink;
+}
+p{color: skyblue;}
+.dropbtn {
+  background-color: white;
+  color: pink;
+  padding: 10px;
+  border: 2px solid white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.dropbtn:hover{
+	color: red;
+	background-color: black;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	background-color: black;
+	min-width: 120px;
+}
+.dropdown-content a{
+	color: white;
+	padding: 10px 15px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown-content a:hover{color: red;}
+.dropdown:hover .dropdown-content{
+		display: block;
+}
+a:visited{color:red;}
+a:active{color: yellow;}
+a:hover{color:green;}
