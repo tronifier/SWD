@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <img src="html.jpg" width="60" height="90">
+        <h4><b>Hypertext Markup Language</b></h4>
+        <hr>
+        <hr>
+        <p>Hypertext Markup Language(HTML) is standerd <a href="https://en.wikipedia.org/wiki/Markup_language">Markup Language</a> for creating
+        <a href="https://en.wikipedia.org/Wiki/Web_page">web page</a> and <a href="https://en.wikipedia.org/wiki/Web_application">wab applicatiion</a>
+        with <a href="https://en.wikipedia.org/Wiki/Casecading_Style_Sheets">Casecading Style Sheets</a> (CSS) and <br>
+        <a href="https://en.wikipedia.org/wiki/js">Javascript</a>, it forms a triad of cornerstone technologies for <a href="https://en.wikipedia.org/wiki/World_Wid_Web">World Wid Web</a>.</p>
+        <hr>
+        <hr>
+    </body>
+</html>
