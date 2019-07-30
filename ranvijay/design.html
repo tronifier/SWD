@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            @keyframes design_1{
+                from{
+                    transform: rotate(0deg);
+                }
+                to{
+                    transform: rotate(360deg);
+                }
+            }
+            @keyframes design_2{
+                0%{
+                    border-color: red;
+                }
+                25%{
+                    border-color: blue;
+                }
+                50%{
+                    border-color:magenta;
+                }
+                75%{
+                    border-color: green;
+                }
+                100%{
+                    border-color: orangered;
+                }
+            }
+            
+            body{
+                background: black;
+                display: flex;
+                height: 100vh;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            div{
+                border: 24px groove red;
+                position: relative;
+                animation-name: design_1;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-fill-mode: both;
+                animation-timing-function: linear;
+
+                
+                
+                animation-name: design_2;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-fill-mode: both;
+                animation-timing-function: linear;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <div>
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <div>
+                                    <div>
+                                        <div>
+                                            <div>
+                                                <div>
+                                                    <div>
+                                                        <div>
+                                                            <div>
+                                                                <div>
+                                                                    <div>
+                                                                        <div>
+                                                                            <div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
